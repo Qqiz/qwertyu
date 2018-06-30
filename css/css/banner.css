@@ -1,0 +1,47 @@
+.section_banner {
+    margin-top: 85px;
+    padding: 100px;
+    background: #483D8B center;
+    background-size: cover;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-text {
+}
+
+.banner-text_header {
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.banner-text_body {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.banner-text_body a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.banner-text_body span {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+@media screen and (max-width: 850px) {
+    .banner {
+        margin-top: 56px;
+        padding: 30px 0;
+    }
+}

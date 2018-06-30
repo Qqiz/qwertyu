@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Narcomany</title>
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="./transitions.css">
+        <link rel="stylesheet" href="./animations.css">
+</head>
+<body>
+    <div class="animation-warper">
+        <h2>Loader</h2>
+        <div class="loader loader_multi-color"></div>
+        </div>
+        <div class="block"></div>
+    </section>>
+</main>
+        </body>
+    </html>
+<style>
+    .loader{
+border: 150px solid lightgray;
+border-top: 150px solid green;
+border-radius: 50%;
+width:150px;
+height: 150px;
+animation: spin 2s linear infinite;
+}
+.loader_multi-color {
+    border-bottom: 15px solid black;
+    border-left: 15px solid white;
+    border-right: gray;
+}
+.block {
+    background: green;
+    position: relative;
+    color: #fff;
+    border: 150px solid lightgray;
+border-top: 150px solid green;
+border-radius: 50%;
+   }
+   .block::after {
+    content: ''; 
+    position: absolute; 
+    left: 400px; bottom: -700px; 
+    border: 400px solid transparent; 
+    border-top: 400px solid green;
+   }
+@keyframes spin {
+    form {
+    transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }  
+}
+</style>

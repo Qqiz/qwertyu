@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    color: #777777;
+    font-family: "Marker Felt";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.625em;
+
+}
+
+.main {
+    background:  url(фигурка.png) center;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+.section {}
+
+.section_header {
+    text-align: center;
+}
+
+.section_main {
+    padding: 120px 0;
+}
+
+.section_brand {
+    padding-bottom: 120px 0;
+}
+
+.product-card-warp{
+    padding: 15px;
+    width: 25%;
+}
+
+.product-card_image-warp{
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+.product-card_details{
+    padding: 20px;
+    background-color: #483D8B;
+}
+h4{
+    font-size: 18px;
+    color: white;
+}
+.product-card_button{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    background: #fff;
+    color: #483D8B !important;
+    font-weight: 600;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+.cards{
+display: flex;
+flex-direction: row;
+margin: 20px
+}
+.product-card_text{
+    color: white;
+}
+
+@media screen and (max-width: 1140px) {
+    .container {
+        max-width: auto;
+        width: 100%;
+        margin: 0;
+    }
+    .section_main {
+        padding: 30px 0;
+    }
+}
